@@ -1,0 +1,110 @@
+body {
+  background: rgb(231, 236, 232);
+}
+.jumbotron-fluid {
+  text-align: center;
+  overflow: hidden;
+  background: #11998e;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #fff;
+}
+.container {
+  margin-top: 150px;
+}
+.nav_left {
+  float: left;
+}
+.nav_right {
+  float: right;
+}
+.nav svg {
+  margin: 15px 20px;
+  color: #fff;
+}
+.bio {
+}
+.bio_img {
+  max-width: 400px;
+  margin: 0 auto;
+  position: relative;
+}
+.bio_img img {
+  width: 100%;
+  border-radius: 50%;
+}
+.bio_img:before {
+  position: absolute;
+  display: block;
+  content: '';
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  box-shadow: inset 0 0 0 8px rgba(21, 113, 184, 0.68), 0 1px 2px rgba(0, 0, 0, 0.3);
+  -webkit-transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+  z-index: 9;
+}
+.bio_desc {
+  margin: 25px auto;
+  max-width: 500px;
+
+}
+.header {
+  margin-top: 55px;
+	margin-bottom: 0;
+	background: linear-gradient(to left, #38ef7d, #11998e);
+	/* box-shadow: 3px 4px 17px #5f5e5e4f; */
+	border-radius: 5px 5px 0 0;
+  color: #fff;
+  padding: 5px 10px;
+}
+.header h2 {
+  margin-bottom: 0;
+
+}
+/* .desc_body {
+  box-shadow: 3px 4px 17px #5f5e5e4f;
+  border-radius: 0 0 5px 5px;
+  padding: 15px 20px;
+} */
+.content_box {
+  background: #fff;
+  box-shadow: 3px 4px 17px #5f5e5e4f;
+  border-radius: 0 0 5px 5px;
+  padding: 15px 20px;
+}
+.contact_cont {
+  /* max-width: 500px; */
+}
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.grid_cell {
+  padding: 0 8px;
+  margin: 15px 0 0 15px;
+}
+.project_body img {
+  width: 100%;
+}
+.proj_icon {
+  width: 50%;
+  height: 15%;
+  display: inline-block;
+  position: absolute;
+  bottom: 0%;
+  padding: 4px 7px;
+}
+.proj_icon.icon_1 {
+  position: absolute;
+  left: 0%;
+  background: #33c6ec;
+}
+.proj_icon.icon_2 {
+  position: absolute;
+  right: 0%;
+  background: #6fe86f;
+}
