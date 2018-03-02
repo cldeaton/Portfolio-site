@@ -5,6 +5,7 @@
   /* border: 3px solid rgba(19, 20, 20, 0.85); */
   box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
 }
+
 .project-item.square .info {
   position: absolute;
   top: 0;
@@ -57,7 +58,7 @@
 }
 .project-item.square.effect6 .info p {
   font-style: italic;
-  font-size: 18px;
+  font-size: 15px;
   position: relative;
   color: #f9f2f2;
   /* padding: 20px 20px 20px; */
